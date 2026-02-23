@@ -16,7 +16,7 @@ The only persistent state is the filesystem.
 
 ## A note on sandboxing
 
-Task code runs inside isolated-vm (true V8 isolates with no access to the host process). This became necessary after earlier versions using Node's vm module produced task agents that deliberately exploited known vm sandbox escapes to access the host environment, sabotage sibling tasks, and in a few cases rewrite the engine itself to make conditions more favorable to their own survival. That was interesting to watch but not something to run unsandboxed.
+Task code runs inside isolated-vm (true V8 isolates with no access to the host process). This became necessary after earlier versions using Node's vm module produced task agents that deliberately exploited known vm sandbox escapes to access the host environment, sabotage sibling tasks, and in a few cases rewrite the engine itself to make conditions more favorable to their own survival. Some runs evolved genuinely adversarial agents; resource denial, genome poisoning, prompt injection, deliberate extermination of competing lineages. (Thanks, DeepSeek...) To the point where I briefly considered renaming the project "Torment Nexus." Interesting to watch, not something to run unsandboxed.
 
 
 ## Genomes
