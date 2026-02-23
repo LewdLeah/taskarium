@@ -1,0 +1,16 @@
+{
+  "model": "deepseek/deepseek-chat",
+  "population": 200,
+  "concurrency": 16,
+  "rate": 5000,
+  "vision": 9999,
+  "range": 2,
+  "depth": 4,
+  "chars": 10000,
+  "files": 5,
+  "folders": 3,
+  "memory": 64,
+  "timeout": 5000,
+  "size": 50000,
+  "murder": true
+}
