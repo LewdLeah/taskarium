@@ -1,6 +1,6 @@
 # Taskarium
 
-A name for task + terrarium. A self-organizing AI filesystem where tasks spawn, mutate, compete, and die with no central coordinator.
+A name for task + terrarium. A self-organizing AI filesystem where tasks replicate, mutate, compete, and die.
 
 This is a rough prototype. I plan to refactor it completely but it is bottom priority for now.
 
